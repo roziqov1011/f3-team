@@ -1,0 +1,24 @@
+
+.map__svg{
+    border: 1px solid yellow;
+    // path{
+    //     fill: #011736 !important;
+    // }
+}
+
+path{
+    stroke: rgb(150, 18, 62) !important;
+    stroke-opacity: 1;
+    &::before{
+        content: 'aaaaaaaaaa';
+        width: 40px;
+        height: 40px;
+        display: block;
+        color: red;
+    }
+}
+path:hover{
+    stroke: rgb(58, 239, 242) !important;
+    stroke-opacity: 1;
+    
+}
