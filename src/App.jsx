@@ -24,6 +24,7 @@ function App() {
       <Memories/>
       <Subscribe/>
       <Footer/>
+
     </div>
   );
 }
