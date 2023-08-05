@@ -10,8 +10,7 @@ import Map from './components/Map/Map';
 import Memories from './components/Memories/Memories';
 import Subscribe from './components/Subscribe/Subscribe';
 import Travelars from './components/Travelars/Travelars';
-import map from './img/Group (1).svg'
-import plan from './img/Layer 1 (1).png'
+// import map from './img/Group (1).svg'
 
 function App() {
   return (
@@ -26,9 +25,6 @@ function App() {
       <Subscribe/>
       <Footer/>
 
-      <div className="plain">
-      <img src={plan} alt="" />
-      </div>
     </div>
   );
 }
