@@ -27,7 +27,58 @@
     .navcolor{
         color: rgba(49, 62, 247, 1);
         text-decoration: none;
-
+        &::after{
+            content: '';
+            width: 3.3%;
+            height:2px;
+            background-color: rgba(49, 62, 247, 1);
+            display: block;
+            position: absolute;
+            margin-top: 14px;
+            border-radius: 10px;
+        }
+    }
+    .navcolor2{
+        color: rgba(49, 62, 247, 1);
+        text-decoration: none;
+        &::after{
+            content: "";
+            width: 3.5%;
+            height: 2px;
+            background-color: rgb(49, 62, 247);
+            display: block;
+            position: absolute;
+            margin-top: 14px;
+            border-radius: 10px;
+        }
+    }
+    .navcolor3{
+        color: rgba(49, 62, 247, 1);
+        text-decoration: none;
+        &::after{
+            content: '';
+            width: 4.5%;
+            height:2px;
+            background-color: rgba(49, 62, 247, 1);
+            display: block;
+            position: absolute;
+            margin-top: 14px;
+            border-radius: 10px;
+        }
+    }
+    .navcolor4{
+        color: rgba(49, 62, 247, 1);
+        text-decoration: none;
+        &::after{
+            content: '';
+            width: 4.5%;
+            height:2px;
+            background-color: rgba(49, 62, 247, 1);
+            display: block;
+            position: absolute;
+            margin-top: 14px;
+            border-radius: 10px;
+        }
     }
     .nav-links{
         text-decoration: none;
