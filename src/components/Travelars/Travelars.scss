@@ -1,0 +1,89 @@
+.travelars {
+    width: 1440px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.travelars__title {
+    margin-top: 100px;
+    color: #011736;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.card1 {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.card2 {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.card3 {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.card4 {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -20px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+h3 {
+    color: #011736;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+p {
+    color: #979797;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
