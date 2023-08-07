@@ -1,4 +1,5 @@
 import React from 'react'
+import './FeaturesTop.scss'
 
 function FeaturesTop() {
   return (
