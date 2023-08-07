@@ -10,7 +10,7 @@ function Header() {
         <div className="nav">
           <div className="container">
                 <Link to={'/home'} className='nav-logo'><img src={Logo} alt="" /></Link>
-            <ul className='nav-list'>
+            <ul className='nav-list'> 
               <li className='nav-items'>
                 <Link onClick={()=> setNav(0)} className={ navcolor == 0? "navcolor" :"nav-links"} >All Flight</Link>
               </li>
