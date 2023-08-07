@@ -5,7 +5,11 @@ function Features() {
   return (
     <div>
       <FeaturesTop/>
-      <h1>Features</h1>
+      <div className="features">
+        <div className="features__left">
+          
+        </div>
+      </div>
       
     </div>
   )
