@@ -12,12 +12,13 @@ import card4two from '../../img/card4two.svg'
 function Travelars() {
   return (
     <div className='travelars'>
+      <div className="container">
       <h1 className='travelars__title'>Best travelars of this month</h1>
       <br />
       <div className="cards">
         <div className="card1">
-          <img src={card1} alt="" />
-          <img src={card1two} alt="" />
+          <img className='img' src={card1} alt="" />
+          <img className='img2' src={card1two} alt="" />
           <h3>
           Raju Mullah
           </h3>
@@ -26,8 +27,8 @@ function Travelars() {
           </p>
         </div>
         <div className="card2">
-          <img src={card2} alt="" />
-          <img src={card2two} alt="" />
+          <img className='img' src={card2} alt="" />
+          <img className='img2' src={card2two} alt="" />
           <h3>
           Zaire Vetrovs
           </h3>
@@ -36,8 +37,8 @@ function Travelars() {
           </p>
         </div>
         <div className="card3">
-          <img src={card3} alt="" />
-          <img src={card3two} alt="" />
+          <img className='img' src={card3} alt="" />
+          <img className='img2' src={card3two} alt="" />
           <h3>
           Marcus Dias
           </h3>
@@ -46,8 +47,8 @@ function Travelars() {
           </p>
         </div>
         <div className="card4">
-          <img src={card4} alt="" />
-          <img src={card4two} alt="" />
+          <img className='img' src={card4} alt="" />
+          <img className='img2' src={card4two} alt="" />
           <h3>
           Davis Schleifer
           </h3>
@@ -55,6 +56,7 @@ function Travelars() {
           @davisschleifer
           </p>
         </div>
+      </div>
       </div>
     </div>
   )

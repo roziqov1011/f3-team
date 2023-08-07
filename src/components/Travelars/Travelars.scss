@@ -7,12 +7,12 @@
 
 .cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 132px;
 }
 
 .travelars__title {
@@ -26,46 +26,83 @@
     letter-spacing: 0.6px;
     text-transform: capitalize;
     text-align: center;
+    margin-left: 508px;
 }
 
 .card1 {
-    width: 282px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: -20px;
-    flex: 1 0 0;
     align-self: stretch;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
+    border-radius: 0 0 153px 153px;
+    padding-bottom: 30px;
+    margin-left: 26px;
+    .img{
+            width: 322px;
+    }
+    .img2{
+            width: 90px;
+            margin-top: -20px;
+    }
 }
 
 .card2 {
-    width: 282px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: -20px;
-    flex: 1 0 0;
     align-self: stretch;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
+    border-radius: 0 0 153px 153px;
+    padding-bottom: 30px;
+    margin-left: 26px;
+    .img{
+            width: 322px;
+    }
+    .img2{
+            width: 90px;
+            margin-top: -20px;
+    }
 }
 
 .card3 {
-    width: 282px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: -20px;
-    flex: 1 0 0;
     align-self: stretch;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
+    border-radius: 0 0 153px 153px;
+    padding-bottom: 30px;
+    margin-left: 26px;
+    .img{
+            width: 322px;
+    }
+    .img2{
+            width: 90px;
+            margin-top: -20px;
+    }
 }
 
 .card4 {
-    width: 282px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: -20px;
-    flex: 1 0 0;
     align-self: stretch;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.05);
+    border-radius: 0 0 153px 153px;
+    padding-bottom: 30px;
+    margin-left: 26px;
+    .img{
+            width: 322px;
+    }
+    .img2{
+            width: 90px;
+            margin-top: -20px;
+    }
 }
 
 h3 {
