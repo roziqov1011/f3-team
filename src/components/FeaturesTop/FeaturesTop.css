@@ -1,26 +1,17 @@
-@mixin flexes($align, $justify) {
-  display: flex;
-  align-items: $align;
-  justify-content: $justify;
-}
-
-// @mixin text($size, $weight, $line, $color) {
-//   font-size: $size;
-//   font-weight: $weight;
-//   line-height: $line;
-//   color: $color;
-// }
-
 h1 {
   padding-top: 20%;
-  @include flexes(center, center)
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Our_box {
   margin-top: 50px;
   width: 100%;
   height: auto;
-  @include flexes(center, space-between);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Our_box:nth-child(1) {
@@ -28,25 +19,31 @@ h1 {
 }
 
 .our_in_boxes {
-  @include flexes(center, center);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 281.633px;
   padding: 42px 21px;
   gap: 20px;
   border-radius: 185px;
   background: #fff;
-  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+  box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.1);
 }
 
 .our_back_box {
-  @include flexes(center, center);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
   border-radius: 50%;
-  background-color: #313EF70D;
+  background-color: rgba(49, 62, 247, 0.0509803922);
 }
 
 .our_back_box_two {
-  @include flexes(center, center);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
   border-radius: 50%;
   background-color: #030522;
@@ -70,4 +67,4 @@ h1 {
   font-weight: 400;
   line-height: 150%;
   /* 24px */
-}
+}/*# sourceMappingURL=FeaturesTop.css.map */
