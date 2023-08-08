@@ -38,7 +38,10 @@ function Hero() {
               </ul>
             </div>
             <div>
-              <img src={Add} alt="" />
+              <label htmlFor="in">
+                <img src={Add} alt="" />
+              </label>
+              <input id='in' type="date" />
               <ul>
                 <li>Check-in</li>
                 <li>Add date</li>
