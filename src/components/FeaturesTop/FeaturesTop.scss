@@ -23,8 +23,8 @@ h1 {
   @include flexes(center, space-between);
 }
 
-.Our_box:nth-child(1) {
-  margin-top: 200px;
+.Our_box:nth-child(odd) {
+  margin-top: 40px;
 }
 
 .our_in_boxes {
