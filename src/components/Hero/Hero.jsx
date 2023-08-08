@@ -6,6 +6,8 @@ import Costumer from '../../img/order_costumer.png'
 import Add from '../../img/order_date.png'
 function Hero() {
   const [order, setOrder] = useState(0)
+  const [Date1, setDate1] = useState('Add date')
+  console.log(Date1);
   return (
     <div className='Hero'>
       <div className="container">
@@ -41,10 +43,10 @@ function Hero() {
               <label htmlFor="in">
                 <img src={Add} alt="" />
               </label>
-              <input id='in' type="date" />
+              <input className='hero__date' onChange={(e)=> setDate1(e.target.value)} id='in' type="date" />
               <ul>
                 <li>Check-in</li>
-                <li>Add date</li>
+                <li>{Date1}</li>
               </ul>
             </div>
             <div>
