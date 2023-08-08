@@ -48,6 +48,7 @@ function Hero() {
               </ul>
             </div>
             <div>
+              {/* <input className='check_out' type="date" name="" id="" /> */}
               <img src={Add} alt="" />
               <ul>
                 <li>Check-out</li>
