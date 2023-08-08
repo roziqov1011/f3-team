@@ -5,7 +5,6 @@ import img2 from '../../img/Frame 1261154508.png'
 function Book() {
   return (
     <div>
-      <h1>Book</h1>
       <div className='book'>
         <h3>Book Popular Flight Tickets</h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
