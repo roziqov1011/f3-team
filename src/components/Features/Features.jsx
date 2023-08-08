@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 function Features() {
   return (
-    <div className='features'>
+    <div className='features container'>
       <FeaturesTop/>
       <div className="features__big">
       <div className="features__left">
