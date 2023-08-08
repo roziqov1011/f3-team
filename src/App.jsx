@@ -3,7 +3,6 @@ import './App.scss';
 import Book from './components/Book/Book';
 import Customer from './components/Customer/Customer';
 import Features from './components/Features/Features';
-import FeaturesTop from './components/FeaturesTop/FeaturesTop';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -19,7 +18,6 @@ function App() {
       <Header/>
       <Hero/>
       <Features/>
-      <FeaturesTop/>
       <Book/>
       <Travelars/>
       <Customer/>
