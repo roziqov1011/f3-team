@@ -3,10 +3,11 @@ import './Hero.scss'
 import Background from '../../img/hero.png'
 import Location from '../../img/order_location.png'
 import Costumer from '../../img/order_costumer.png'
-import Add from '../../img/order_date.png'
+// import Add from '../../img/order_date.png'
 function Hero() {
   const [order, setOrder] = useState(0)
   const [Date1, setDate1] = useState('Add date')
+  const [Date2, setDate2] = useState('Add date')
   console.log(Date1);
   return (
     <div className='Hero'>
@@ -40,9 +41,9 @@ function Hero() {
               </ul>
             </div>
             <div>
-              <label htmlFor="in">
+              {/* <label htmlFor="in">
                 <img src={Add} alt="" />
-              </label>
+              </label> */}
               <input className='hero__date' onChange={(e)=> setDate1(e.target.value)} id='in' type="date" />
               <ul>
                 <li>Check-in</li>
@@ -50,11 +51,11 @@ function Hero() {
               </ul>
             </div>
             <div>
-              {/* <input className='check_out' type="date" name="" id="" /> */}
-              <img src={Add} alt="" />
+              {/* <img src={Add} alt="" /> */}
+              <input className='hero__date' onChange={(e)=> setDate2(e.target.value)} id='in' type="date" />
               <ul>
                 <li>Check-out</li>
-                <li>Add date</li>
+                <li>{Date2}</li>
               </ul>
             </div>
           </div>
